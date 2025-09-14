@@ -1,0 +1,83 @@
+.dashboard-container {
+  font-family: "Roboto", Arial, sans-serif !important;
+}
+
+.dashboard-container h1,
+.dashboard-container h2,
+.dashboard-container h3,
+.dashboard-container h4,
+.dashboard-container h5,
+.dashboard-container h6,
+.dashboard-container p,
+.dashboard-container span,
+.dashboard-container div,
+.dashboard-container label,
+.dashboard-container select,
+.dashboard-container option {
+  font-family: "Roboto", Arial, sans-serif !important;
+}
+
+.dashboard-header {
+  font-weight: 700;
+}
+
+.dashboard-period-label {
+  font-weight: 500;
+}
+
+.title-dashboard {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #343a40;
+}
+
+.office-label {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-transform: uppercase;
+  color: #868e96;
+}
+
+.room-name {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 2%;
+  color: #868e96;
+}
+
+label.percentage-category {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  letter-spacing: 2%;
+  color: #625b71;
+}
+label.chart-value {
+  font-family: "Inter", sans-serif !important;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+}
+label.consumption-category {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  letter-spacing: 2%;
+  color: #000000;
+}
+div.value-consumption-category {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 2%;
+  color: #000000;
+}

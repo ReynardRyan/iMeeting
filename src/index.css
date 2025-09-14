@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: "Open Sans", Arial, sans-serif !important;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: #4a8394 !important;
+}
+
+.active-menu {
+  background-color: #4a8394;
+  color: #fff !important;
+}
+.active-breadcrumb {
+  color: #4a8394;
+}
+.nonActive-breadcrumb {
+  color: #9e9e9e;
+}
+.row-form {
+  height: 69px;
+  gap: 20px;
+}
+.row-form-konsumsi {
+  height: 100px;
+  gap: 20px;
+}
+
+.input-group .react-datepicker-wrapper {
+  flex: 1;
+}
+
+.input-group .react-datepicker__input-container {
+  display: flex;
+  flex: 1;
+}
+
+.input-group .react-datepicker__input-container input {
+  flex: 1;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  content: ">";
+  padding: 0 8px;
+  color: #6c757d;
+}
+
+.no-calendar-icon::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.no-calendar-icon::-webkit-inner-spin-button,
+.no-calendar-icon::-webkit-clear-button {
+  display: none;
+  -webkit-appearance: none;
+}
+
+.no-calendar-icon {
+  -moz-appearance: textfield;
+}
