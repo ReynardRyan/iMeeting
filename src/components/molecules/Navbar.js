@@ -12,7 +12,7 @@ const CustomNavbar = () => {
       expand="lg"
       fixed="top"
       style={{
-        background: "linear-gradient(to right, #0099cc, #006699)",
+        background: "linear-gradient(to right, #18A2BA, #296377)",
         height: "68px",
         padding: "8px 24px",
       }}
